@@ -9,7 +9,7 @@ import random           # satunnaislukujen käsittelyyn
 pii = math.pi
 print(pii)
 
-# muotoiltu tulostus, alkaa ainapienellä f-kirjaimella
+# muotoiltu tulostus, alkaa aina pienellä f-kirjaimella
 print(f"pii 2 desimaalilla {pii:.2f}")
 
 arvottu = random.randint(3 ,15)
