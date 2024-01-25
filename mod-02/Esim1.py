@@ -1,4 +1,4 @@
-# laskutoimituksia
+# Laskutoimituksia
 
 '''
 Laskujärjestys, voimakkain ensin:
@@ -15,6 +15,6 @@ print(2 + 8 / 2)            # 6, jakolasku 8/2 ensin
 tulos = 2 * 3 + 2 * 5       # 16, sama kuin (2*3) + (2*5)
 print(tulos)
 
-tulos = 2 * 4 + 5
+tulos = 3 + 6 + 6 / 2           # 12, sama kuin 3 + 6 + (6/2)
 # str(tulos) muuttaa numeron merkkijonoksi tulostusta varten
 print("tulos on " + str(tulos) )
