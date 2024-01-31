@@ -13,6 +13,7 @@ heitetty = 0        # aluksi ei ole heitetty kertaakaan
 while heitetty < lkm:
     # heitä noppa, ota silmäluku talteen
     silmaluku = random.randint(1, 6)
+    # tulostetaan heiton arvo toiminnan tarkistusta varten
     print(f"silmäluku: {silmaluku}")
     # lisää nopan silmäluku listaan
     numerot.append(silmaluku)
@@ -20,8 +21,10 @@ while heitetty < lkm:
     heitetty += 1   # heitetty = heitetty + 1
 
 # olisiko listalla valmis summa toiminto?
-summa = sum(numerot)
+summa = sum(numerot)    # olihan sillä!
 
 # tulostetaan vastaus
 print(f"Noppien summa: {summa}")
+
+# TODO: tee vastaa ohjelma for-toiston avulla!
 
