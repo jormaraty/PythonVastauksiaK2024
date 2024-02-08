@@ -16,7 +16,7 @@ elif 6 <= nro <= 8:     # lyhennys normaalista 2 eri ehdon yhdistelmästä
 elif nro >= 9 and nro <= 11:
     print(f"vuodenaika on: {vuodenajat[2]}")
 # nyt tulee hankalampi vertailu, sulut (ehkä) selkeyttävät ehtoa
-# sanallisesti: (jos nro on 1 tai 2) tai nro on 12
+# sanallisesti: (jos nro on välillä 1 ... 2) tai nro on 12
 elif (nro >= 1 and nro <= 2)  or nro == 12:
     print(f"vuodenaika on: {vuodenajat[3]}")
 else:
