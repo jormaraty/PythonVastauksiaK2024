@@ -87,5 +87,6 @@ print("Palohälytys!!!")
 ekaTalo.palohalytys()
 
 # testataan ovatko kaikki hissit alimmassa kerroksessa
+print("Hissien sijainnit palohälytyksen jälkeen:")
 for tutkittava_hissi in ekaTalo.hissit:
     print(f"Hissi on kerroksessa {tutkittava_hissi.kerros} ")
